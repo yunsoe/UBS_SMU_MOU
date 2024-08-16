@@ -1,0 +1,8 @@
+version: '3.5'
+services:
+  web:
+    build: .
+    ports:
+    - "8000:8000"
+    container_name: ubs_smu_mou_demo
+    restart: unless-stopped
